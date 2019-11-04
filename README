@@ -1,0 +1,25 @@
+To run the project:
+
+Run as Maven Project : Maven install
+
+OR
+
+Run as TestNG Suite
+
+1. Features/amazon.feature : BDD (cucumber) feature file, it has steps in sequence.
+2. Each step is associated with step definitions in stepDefinitions/AmazonStepDefinition.java file.
+3. AmazonStepDefinitions.java file uses PageFactory model to define elements
+4. Using TestNG to run the project using Runner file MyRunner/TestRunner.java
+
+
+Utilities
+/utils/readExcel : To read(given number of items)from excel
+
+Reporting
+target/cucumber-reports
+
+To do
+It runs for chrome version 78, has to make it browser version independent
+
+
+
