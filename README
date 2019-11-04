@@ -21,5 +21,8 @@ target/cucumber-reports
 To do
 It runs for chrome version 78, has to make it browser version independent
 
+Note: This is the basic setup of project, where cucumber feature file, testng runner, screenshot, excel and framework is in place. 
+Still webelements acess is not in place.
+
 
 
